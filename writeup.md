@@ -59,5 +59,4 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 ###3. Suggest possible improvements 
 * Catch error when no Hough lines are generated for either the right or left lane
 * Add color detection to only detect lines that are white or yellow
-* Fine tune Hough Transform parameters to filter out noisy Housy lines that bias the average slope
 * Give bigger weight to longer lines and calculate a weighted-average slope, to filter out noisy Housy lines that bias the average slope
