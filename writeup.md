@@ -1,4 +1,4 @@
-#**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road** 
 
 ---
 
@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consists of 6 steps: 
 * Convert the orignial images to grayscale. (Using the OpenCV library)
@@ -48,7 +48,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 
 
-###2. Identify potential shortcomings 
+### 2. Identify potential shortcomings 
 * Crashes when no Hough lines generated in an image
 * Hough Transform can't generate curved lines (eg: when the car is in a curve)
 * Can't detect lane lines if outside the region of interest (eg: when car is switching lanes)
@@ -56,7 +56,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 * Can't predict where the lane lines should be if there are no lane lines
 
 
-###3. Suggest possible improvements 
+### 3. Suggest possible improvements 
 * Catch error when no Hough lines are generated for either the right or left lane
 * Add color detection to only detect lines that are white or yellow
 * Give bigger weight to longer lines and calculate a weighted-average slope, to filter out noisy Housy lines that bias the average slope
