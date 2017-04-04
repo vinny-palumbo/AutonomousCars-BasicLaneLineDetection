@@ -2,9 +2,8 @@
 
 ---
 
-The goals / steps of this project are the following:
+The goal of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
 
 
 [//]: # (Image References)
@@ -22,7 +21,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Describe the pipeline. Explain how I modified the draw_lines() function.
 
 My pipeline consists of 6 steps: 
 * Convert the orignial images to grayscale. (Using the OpenCV library)
