@@ -1,7 +1,7 @@
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
 
-<img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+![alt text][image10]
 
 ### Overview
 ---
@@ -31,7 +31,7 @@ My pipeline consists of the following steps:
     
     
 [//]: # (Image References)
-
+[image10]: ./examples/demo.gif "Demo"
 [image1]: ./examples/grayscale.jpg "Grayscale"
 [image2]: ./examples/gaussina-blur.jpg "Gaussian Blur"
 [image3]: ./examples/canny-edges.jpg "Canny Edges"
